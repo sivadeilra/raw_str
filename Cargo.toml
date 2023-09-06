@@ -1,0 +1,15 @@
+[package]
+name = "raw_str"
+version = "0.1.0"
+edition = "2021"
+description = "A simple type which contains a byte slice that is believed to contain UTF-8 string data, but which has not been validated."
+license = "MIT OR Apache-2.0"
+authors = ["Arlie Davis <arlie.davis@gmail.com>", "Arlie Davis <ardavis@microsoft.com>"]
+repository = "https://github.com/sivadeilra/raw_str"
+
+[lib]
+doctest = false
+
+[features]
+default = ["std"]
+std = []
